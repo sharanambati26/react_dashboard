@@ -1,0 +1,93 @@
+.dashboard-bg {
+    min-height: 100vh;
+    background-color: rgb(221, 236, 246);
+    padding-bottom: 30px;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.heading {
+    font-weight: 600 !important;
+    margin: 0;
+}
+
+.header-btn {
+    background-color: white !important;
+    color: rgb(78, 78, 78) !important;
+    display: flex;
+    align-items: center;
+    margin-left: 10px !important;
+    min-width: max-content !important;
+}
+
+
+.dropdown-bg {
+    color: rgb(7, 33, 101) !important;
+    border: 1px solid rgb(154, 151, 151) I !important;
+}
+
+.dropdown {
+    border: none !important;
+    padding: 0px 0px 0px 0px;
+    outline: none;
+    color: rgb(7, 33, 101) !important;
+}
+
+.actions-bg {
+    display: flex;
+}
+
+.watch-icon {
+    padding: 0px 5px;
+    border-right: 1px solid rgb(7, 33, 101) !important;
+}
+
+.widgets-bg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.categories-bg {
+    padding: 3px 35px !important;
+    margin-right: 50px;
+    overflow: auto;
+}
+
+.card {
+    border-radius: 8px !important;
+}
+
+
+.categories-bg::-webkit-scrollbar {
+    width: 2px;
+}
+
+.categories-bg::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.categories-bg::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.categories-bg::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    margin: 0;
+    font-size: 12px;
+}
+
+.field-error {
+    border-color: red !important;
+}
