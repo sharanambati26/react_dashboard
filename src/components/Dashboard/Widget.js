@@ -1,13 +1,7 @@
-import moment from 'moment';
 import { Box, Typography, Card, CardContent, Tooltip } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Widget = ({ data, removeWidget, categoryType }) => {
-
-    const formatDate = (date) => {        
-        return moment(date).format('MMMM D, YYYY');
-    }
-
     return (
         <Card sx={{ minWidth: 325, maxWidth: 325, height: 200, borderRadius: 5, margin: 0 }}>
             <CardContent>
@@ -20,7 +14,6 @@ const Widget = ({ data, removeWidget, categoryType }) => {
                 <Box mt={2} sx={{ height: 120, overflowY: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                     <Typography sx={{ fontSize: 12, textAlign: 'justify' }} variant='body1'>{data.content}</Typography>
                 </Box>
-                {/* <Typography sx={{ fontSize: 12, color: '#747474', fontWeight: 600 }} variant='body1'>Created on: {formatDate(data.created)}</Typography> */}
             </CardContent>
         </Card>
     )
